@@ -14,5 +14,11 @@
             "src": "/run",
             "dest": "test.js"
         }
-    ]
+    ],
+    "build": {
+    "env": {
+      "PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD": "false",
+      "PLAYWRIGHT_DOWNLOAD_HOST": "https://playwright.azureedge.net"
+    }
+  }
 }
