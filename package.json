@@ -4,6 +4,7 @@
   "description": "Test project for Playwright",
   "main": "test.js",
   "scripts": {
+    "postinstall": "playwright install",
     "start": "node test.js"
   },
   "dependencies": {
