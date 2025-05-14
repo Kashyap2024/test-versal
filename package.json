@@ -4,7 +4,7 @@
   "description": "Test project for Playwright",
   "main": "test.js",
   "scripts": {
-    "postinstall": "playwright install chromium --with-deps",
+    "postinstall": "playwright install chromium",
     "start": "node test.js"
   },
   "dependencies": {
